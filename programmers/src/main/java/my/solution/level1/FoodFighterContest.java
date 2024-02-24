@@ -1,3 +1,4 @@
+package my.solution.level1;
 
 /**
  * 푸드 파이트 대회

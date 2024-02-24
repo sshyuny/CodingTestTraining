@@ -1,3 +1,5 @@
+package my.solution.level1;
+
 import java.util.*;
 
 

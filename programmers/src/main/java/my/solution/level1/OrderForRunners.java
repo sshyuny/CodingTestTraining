@@ -1,3 +1,5 @@
+package my.solution.level1;
+
 import java.util.*;
 
 /**
@@ -7,7 +9,7 @@ import java.util.*;
  */
 class OrderForRunners {
 
-    public String[] solution(String[] players, String[] callings) {
+    String[] solution(String[] players, String[] callings) {
 
         int playersNum = players.length;
 
