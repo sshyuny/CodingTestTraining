@@ -7,7 +7,7 @@ import java.util.Map;
  * 추억점수
  * https://school.programmers.co.kr/learn/courses/30/lessons/176963
  */
-public class YearningScore {
+class YearningScore {
 
     private String[] name;
     private int[] yearning;

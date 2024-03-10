@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class YearningTest {
+public class YearningScoreTest {
     
     @Test
     public void test1() {
