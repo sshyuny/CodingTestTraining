@@ -9,6 +9,52 @@ import java.util.*;
 class FindBiggerNumInBehind {
 
     /*
+     * 채점 결과: 실패(시간초과) - 테스트 20, 22
+     */
+    class FindBiggerNumInBehindOutOfTime3 {
+        public int[] solution(int[] numbers) {
+            int length = numbers.length;
+            int[] answer = new int[length];
+            
+            answer[length - 1] = -1;
+            int biggestNum = numbers[length - 1];
+            
+            for (int i = length - 2; i >= 0; i--) {
+                int curNum = numbers[i];
+                int nextNum = numbers[i + 1];
+                
+                if (curNum < nextNum) {
+                    if (biggestNum < nextNum) biggestNum = nextNum;
+                    answer[i] = nextNum;
+                    continue;
+                }
+                
+                if (curNum >= biggestNum) {
+                    answer[i] = -1;
+                    continue;
+                }
+                
+                findBiggerNum(numbers, answer, i, curNum, length);
+            }
+            
+            return answer;
+        }
+        
+        void findBiggerNum(int[] numbers, int[] answer, 
+                           int curIdx, int curNum, int length) {
+            for (int i = curIdx + 2; i <= length - 1; i++) {
+                int nextNum = numbers[i];
+                
+                if (curNum < nextNum) {
+                    answer[curIdx] = nextNum;
+                    return;
+                }
+            }
+            answer[curIdx] = -1;
+        }
+    }
+
+    /*
      * 채점 결과: 실패(시간초과) - 테스트 22
      */
     class FindBiggerNumInBehindOutOfTime2 {
