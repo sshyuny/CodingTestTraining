@@ -1,8 +1,16 @@
 # CodingTestTraining
 코딩테스트 연습
 - 프로그래머스  https://programmers.co.kr/
+- Codility https://app.codility.com/programmers/
 
-## 문제
+
+## Codility
+### Exercise1.
+- LongestPassword: Score 60%
+- FoodDepth: Score 33%
+
+
+## 프로그래머스
 ### Lv1.
 - 푸드 파이트 대회 FoodFighterContest
 - 달리기 경주 OrderForRunners

@@ -1,4 +1,4 @@
-package my.solution.level2;
+package programmers.level2;
 
 import static org.junit.Assert.assertTrue;
 
@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import my.solution.level2.FindBiggerNumInBehind.FindBiggerNumInBehindOutOfTime1;
-import my.solution.level2.FindBiggerNumInBehind.FindBiggerNumInBehindOutOfTime2;
-import my.solution.level2.FindBiggerNumInBehind.FindBiggerNumInBehindOutOfTime3;
+import programmers.level2.FindBiggerNumInBehind.FindBiggerNumInBehindOutOfTime1;
+import programmers.level2.FindBiggerNumInBehind.FindBiggerNumInBehindOutOfTime2;
+import programmers.level2.FindBiggerNumInBehind.FindBiggerNumInBehindOutOfTime3;
 
 public class FindBiggerNumInBehindTest {
 
