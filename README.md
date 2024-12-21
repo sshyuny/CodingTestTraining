@@ -7,7 +7,13 @@
 ## Codility
 ### Exercise1.
 - LongestPassword: Score 60%
-- FoodDepth: Score 33%
+- FoodDepth: Score 58%
+
+### Exercise7.
+- CountBoundedSlices: Score 50%
+
+### Exercise9.
+- BinaryGap: Score 100%
 
 
 ## 프로그래머스
