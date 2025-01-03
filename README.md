@@ -10,6 +10,7 @@
 - FoodDepth: Score 58%
 
 ### Exercise7.
+- ArrListLen: Score 100%
 - CountBoundedSlices: Score 50%
 
 ### Exercise9.
