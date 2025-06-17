@@ -18,7 +18,7 @@
 
 ### contest 2017
 - [TennisTournament](src/main/java/codility/contest2017/TennisTournament.java) Score 100%
-- [SocksLaundering](src/main/java/codility/contest2017/SocksLaundering.java) Score 50%
+- [SocksLaundering](src/main/java/codility/contest2017/SocksLaundering.java) Score 80%
 
 ## 프로그래머스
 ### Lv.1
